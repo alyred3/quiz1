@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_09_01_230149) do
   create_table "pets", force: :cascade do |t|
     t.string "name"
     t.string "age"
-    t.string "descrpition"
+    t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
