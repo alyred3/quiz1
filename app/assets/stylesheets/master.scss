@@ -1,16 +1,18 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Codystar|Homemade+Apple|Monoton|Warnes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
+  background: image_url('starring.png');
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 20px;
   margin-bottom: 25px;
   padding: 30px;
+  text-align: center;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -18,8 +20,27 @@
     padding:0;
   }
 
+  h1, h2 {
+    color: #F5CE43;
+    text-align: center;
+  }
+
+  h2 {
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #F5CE43;
+    font-weight: bold;
+  }
+
+  h5 {
+    color: #000000;
+    text-align: center;
+  }
+
+
   body {
   background: image_url('arches.png');
+  font-family: 'Forum', cursive;
+  color: #fff;
 }
 
 .navbar {
@@ -31,4 +52,10 @@
   color: #F5CE43;
   font-family: 'Monoton', cursive;
   letter-spacing: -0.3px;
+}
+
+.index-image-size {
+    width:  300px;
+    height: 300px;
+    background-size: cover
 }
