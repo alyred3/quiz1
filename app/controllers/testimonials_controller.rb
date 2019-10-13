@@ -2,7 +2,6 @@ class TestimonialsController < ApplicationController
 
   def index
     @testimonials = Testimonial.all
-    @testimonials = Testimonial.new
   end
 
   def new
@@ -21,6 +20,7 @@ class TestimonialsController < ApplicationController
 
   def show
     @testimonials = Testimonial.find(params[:id])
+    @message = Message.new
   end
       private
 
