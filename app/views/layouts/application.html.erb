@@ -11,22 +11,21 @@
 
   <body>
 
-<div class="booyah-box-header">
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col justify-content-md-center">
-        <div class="header">
-          <br/><h1>Kitty City</h1><br />
-        </div>
-      <h2> Welcome to Kitty City Cat Rescue! We are a non-profit cat rescue in Tucson, Arizona. 
-      All of our pets are spayed/neurtered, vaccinated, and microchiped.<br /> Come in today to find your new best friend!</h2><br />
-      <%= image_tag 'cat3.jpg', class: 'header-image' %><br />
-      <h4>7090 N. Oracle Rd, Tucson, AZ 85704</h4>
-      <h4>Monday-Friday 9:00AM-5:00PM | Saturday-Sunday 10:00-3:00PM</h4><br />
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <%= link_to 'Kitty City', root_url, class: 'navbar-brand' %>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item active">
+            <%= link_to 'Testimonials', testimonials_path, class: 'nav-link' %>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
-</div>
+    </nav>
+
 
 
     <%= yield %>
