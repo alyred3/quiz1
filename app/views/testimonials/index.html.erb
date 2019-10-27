@@ -2,10 +2,10 @@
 <div class="booyah-box col-10 offset-1">
   <h1>Testimonials</h1>
   <%= link_to 'Leave your testimonial!', new_testimonial_path, class: 'nav-link' %>
+</div>
   <% @testimonials.each do |testimonial| %>
-    <div class="row" "text-center">
+    <div class="card col-8 offset-2">
       <%= testimonial.message %> -
       <%= testimonial.name %>
     </div>
 <% end %>
-</div>
