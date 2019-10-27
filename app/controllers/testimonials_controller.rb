@@ -5,12 +5,12 @@ class TestimonialsController < ApplicationController
   end
 
   def new
-    @testimonials = Testimonial.new
+    @testimonial = Testimonial.new
   end
 
   def create
-    @testimonials = Testimonial.create(testimonials_params)
-     if @testimonials.valid? 
+    @testimonial = Testimonial.create(testimonials_params)
+     if @testimonial.valid? 
       redirect_to testimonials_path
     else
       render :new, status: :unprocessable_entity
@@ -19,13 +19,12 @@ class TestimonialsController < ApplicationController
 
 
   def show
-    @testimonials = Testimonial.find(params[:id])
-    @message = Message.new
+    # @testimonial = Testimonial.all
   end
       private
 
   def testimonials_params
-    params.permit(:name, :message)
+    params.require(:testimonial).permit(:name, :message)
   end
 end
 
