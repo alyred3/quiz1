@@ -3,8 +3,9 @@
   <h1>Testimonials</h1>
   <%= link_to 'Leave your testimonial!', new_testimonial_path, class: 'nav-link' %>
   <% @testimonials.each do |testimonial| %>
-    <div class="row text-center">
-      <%= testimonial.message %>
+    <div class="row" "text-center">
+      <%= testimonial.message %> -
+      <%= testimonial.name %>
     </div>
 <% end %>
 </div>
