@@ -21,5 +21,5 @@ Things you may want to cover:
 __
 
 ### Screenshots:
-![Screenshot](quiz1landing.png)
-![Screenshot](quiz1simpleform.png)
+![Screenshot]('quiz1landing.png')
+![Screenshot]('quiz1simpleform.png')
