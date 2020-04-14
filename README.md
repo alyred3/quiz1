@@ -1,24 +1,25 @@
-# README
+# Kitty City
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A static pet adoption website that utilizes Simple Form gem for a testimonials section.
+
+[View the deployed application](https://alyssa-redman-quiz1.herokuapp.com/)
+
+__
+
+### Features: 
 
 Things you may want to cover:
 
-* Ruby version
+* Built using Ruby 2.5.3
 
-* System dependencies
+* Simple Form gem for testimonial section
 
-* Configuration
+* Bootstrap, CSS, and Mini Magic for front end elements
 
-* Database creation
+* PostgresSQL
 
-* Database initialization
+__
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Screenshots:
+![Screenshot](quiz1landing.png)
+![Screenshot](quiz1simpleform.png)
