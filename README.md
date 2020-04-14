@@ -8,9 +8,9 @@ __
 
 ### Features: 
 
-Things you may want to cover:
-
 * Built using Ruby 2.5.3
+
+* jQuery
 
 * Simple Form gem for testimonial section
 
