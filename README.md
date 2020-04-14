@@ -21,5 +21,5 @@ Things you may want to cover:
 __
 
 ### Screenshots:
-![Screenshot](app/assets/images/quiz1landing.png)
-![Screenshot]('quiz1simpleform.png')
+![Screenshot](app/assets/images/quiz1landing.png "Landing Page")
+![Screenshot](app/assets/images/quiz1simpleform.png "Simple Form")
