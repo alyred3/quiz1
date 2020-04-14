@@ -21,6 +21,5 @@ Things you may want to cover:
 __
 
 ### Screenshots:
-![alt text](assets/quiz1landing.png)
-![Screenshot](assets/quiz1simpleform.png)
-![Screenshot](cat.jpeg)
+![Screenshot](assets/images/quiz1landing.png)
+![Screenshot]('quiz1simpleform.png')
