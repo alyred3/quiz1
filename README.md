@@ -4,7 +4,7 @@ A static pet adoption website that utilizes Simple Form gem for a testimonials s
 
 [View the deployed application](https://alyssa-redman-quiz1.herokuapp.com/)
 
-__
+_______
 
 ### Features: 
 
@@ -18,7 +18,13 @@ __
 
 * PostgresSQL
 
-__
+_______
+
+### How to use
+
+Guests can view a picture and brief description of pets available for adoption. Guests also have the option of leaving a comment on the Testimonials page.
+
+_______
 
 ### Screenshots:
 ![Screenshot](app/assets/images/quiz1landing.png "Landing Page")
